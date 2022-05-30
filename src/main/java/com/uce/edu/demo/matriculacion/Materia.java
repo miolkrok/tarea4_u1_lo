@@ -25,6 +25,10 @@ public class Materia {
 	public void setAula(String aula) {
 		this.aula = aula;
 	}
+	@Override
+	public String toString() {
+		return "Materia [nombreMateria=" + nombreMateria + ", semestre=" + semestre + ", aula=" + aula + "]";
+	}
 	
 	
 }
